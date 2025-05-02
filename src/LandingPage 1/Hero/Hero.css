@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 120px 0 120px;
+}
+.logo-container{
+    color:#A783A6;
+    font-size: 20px;
+    font-family: "Bagel Fat One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 700;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.navbar div a {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 1.5rem;
+    text-decoration: none;
+    color: rgb(55, 55, 55); 
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  .navbar div a:hover {
+    color: #0056b3; /* Darker link color on hover */
+  }
+.sidenav a{
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    /* margin-right: 3rem; */
+    text-decoration: none;
+    color: rgb(55, 55, 55); 
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+    border: 2px solid #A783A6;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;;
+}
+.hero-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-text{
+    width: 600px;
+    height: 600px;
+    margin-right: 100px;
+    h1{
+        font-size: 3.5rem;
+    }
+    p{
+        font-size: 1.2rem;
+    }
+    .buttons{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        gap: 30px;
+        margin-top: 30px;
+    }
+    .hero-button{
+        background: #A783A6;
+        color: white;
+        padding: 15px 20px;
+        border-radius: 30px;
+        font-size: 1rem;
+        font-weight: 400;
+        font-family:monospace;
+        font-style: normal;
+        text-decoration: none;
+        border: none;
+    }
+    .hero-button1{
+        background: white;
+        color: black;
+        padding: 15px 20px;
+        border-radius: 30px;
+        font-size: 1rem;
+        font-weight: 400;
+        font-style: normal;
+        font-family:monospace;
+        text-decoration: none;
+        border: 2px solid #A783A6;
+
+    
+    }
+    .hero-stats {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+        gap: 10px;
+        margin-top: 100px; 
+        padding: 10px; 
+        border-radius: 10px; 
+    }
+    
+    .hero-stats div {
+        text-align: center; 
+        font-family: "DM Serif Text", serif; 
+        font-size: 1.2rem;
+        color: #333; 
+        flex: 1;
+        position: relative;        
+    }
+
+    .hero-stats div:not(:last-child)::after {
+        content: ""; 
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 1px;
+        background-color: #A783A6; 
+    }
+    
+    .hero-stats div span {
+        font-weight: bold; 
+        font-size: 1.5rem; 
+        color: black; 
+        display: block; 
+    }
+    
+    .hero-stats div p {
+        margin: 0; 
+        font-size: 1.2rem; 
+        color: #555;
+    }
+}
+.hero-image{
+    width: 600px;
+    height: 600px;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+
+
+
+
