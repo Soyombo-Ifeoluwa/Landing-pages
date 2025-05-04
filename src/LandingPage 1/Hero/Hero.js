@@ -5,7 +5,7 @@ function Hero() {
     <div className="hero">
       <div className="navbar-container">
         <div className="logo-container">
-          <h1>EduFlex</h1>
+          <h1>AltEdu</h1>
         </div>
         <nav className="navbar">
           <div>
@@ -23,7 +23,7 @@ function Hero() {
         <div className="hero-text">
           <h1>A new way to learn & get knowledge.</h1>
           <p>
-            EduFlex is here for you with various courses & materials from
+          AltEdu is here for you with various courses & materials from
             skilled tutors all around the world.
           </p>
           <div className="buttons">

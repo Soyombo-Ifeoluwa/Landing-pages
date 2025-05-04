@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+
+.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  .about-image {
+    width: 600px;
+    height: 600px;
+  }
+  .about-text {
+    width: 600px;
+    height: 600px;
+    margin-top: 300px;
+    margin-left: 50px;
+    h1{ 
+        font-family: "DM Serif Text", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #a783a6;
+        letter-spacing:5px;
+        margin-top:1px;
+    }
+    span{
+        letter-spacing: 5px;
+        font-family: "Zain", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-bottom: 100px;
+    }
+    p{
+        font-family: "Zain", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+    }
+   .about-button{
+    background: #A783A6;
+    color: white;
+    padding: 15px 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family:monospace;
+    font-style: normal;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    border-bottom-right-radius: 30px;
+   }
+  }
+}
