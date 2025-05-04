@@ -5,6 +5,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+  margin:0 120px 0 120px;
+
 }
 .logo-container{
     color:#A783A6;

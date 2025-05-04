@@ -16,7 +16,7 @@
     width: 600px;
     height: 600px;
     margin-top: 300px;
-    margin-left: 50px;
+    margin-left: 100px;
     h1{ 
         font-family: "DM Serif Text", serif;
         font-weight: 400;
@@ -39,7 +39,7 @@
         font-size: 20px;
     }
    .about-button{
-    background: #A783A6;
+    background: #98DEA3;
     color: white;
     padding: 15px 20px;
     font-size: 1rem;
