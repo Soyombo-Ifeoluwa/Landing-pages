@@ -1,4 +1,5 @@
 import About from "./About/About";
+import Contact from "./Contact/contact";
 import Course from "./Courses/Course";
 import Hero from "./Hero/Hero";
 function Page1() {
@@ -7,6 +8,7 @@ function Page1() {
      <Hero />
      <About/>
      <Course/>
+     <Contact/>
     </div>
   );
 }

@@ -95,8 +95,8 @@ function Course({ course }) {
                         <img src={course.image} alt="courseimage" className="course-img" />
               <h2>{course.title}</h2>
               <p>{course.description}</p>
-              <button className="course-button">Enroll Now</button>
-              <button className="course-button1">Explore</button>
+              {/* <button className="course-button">Enroll Now</button> */}
+              {/* <button className="course-button1">Explore</button> */}
             </div>
           ))}
     </div>
