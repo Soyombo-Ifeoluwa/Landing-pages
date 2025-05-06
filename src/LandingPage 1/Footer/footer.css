@@ -1,0 +1,46 @@
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  margin:0 120px 0 120px;
+    /* padding: 20px 0; */
+    /* background-color: #f8f9fa; */
+}
+
+.footer-content h1{
+    color:#A783A6;
+    font-size: 30px;
+    font-family: "Bagel Fat One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 700;
+}
+.footer p{
+    color:#A783A6;
+    font-size: 10px;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+.navbar div a {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 1.5rem;
+    text-decoration: none;
+    color: rgb(55, 55, 55); 
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  .navbar div a:hover {
+    color: #0056b3; /* Darker link color on hover */
+  }

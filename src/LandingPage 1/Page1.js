@@ -1,6 +1,7 @@
 import About from "./About/About";
 import Contact from "./Contact/contact";
 import Course from "./Courses/Course";
+import Footer from "./Footer/footer";
 import Hero from "./Hero/Hero";
 function Page1() {
   return (
@@ -9,6 +10,7 @@ function Page1() {
      <About/>
      <Course/>
      <Contact/>
+     <Footer/>
     </div>
   );
 }
