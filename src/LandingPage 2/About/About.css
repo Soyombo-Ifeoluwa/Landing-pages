@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Smythe&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ribeye&display=swap');
+
+.page2-about {
+    color: #B1CFC7;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.page2-about p {
+    font-family: "Smythe", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+
+.page2-about h5 {
+    margin-bottom: 4px;
+    font-family: "Smythe", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.page2-about h2 {
+    margin-top: 0px;
+    font-family: "Ribeye", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+.why {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 120px 0 120px;
+}
+
+.why p {
+    font-family: "Smythe", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.mission h3 {
+    margin-top: 50px;
+    font-family: "Smythe", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.faces {
+    margin-left: 50px;
+}
+
+.button-about {
+    margin-top: 50px;
+}
+
+.but-ton {
+    background-color: #5F8779;
+    color: white;
+    border: none;
+    padding: 25px 50px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 0 50px 0 50px;
+    margin-top: 20px;
+    font-family: "Smythe", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.but-ton:hover {
+    background-color: #B1CFC7;
+    color: #5F8779;
+}
+
+
+/* For tablets and smaller screens */
+@media (max-width: 1024px) {
+    .why {
+        flex-direction: column; 
+        margin: 20px;
+        text-align: center;
+    }
+
+    .why p {
+        font-size: 18px; 
+    }
+
+    .mission h3 {
+        font-size: 25px; 
+    }
+
+    .faces {
+        margin-left: 0; 
+    }
+
+    .but-ton {
+        font-size: 20px; 
+        padding: 15px 30px;
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+    .page2-about {
+        margin-top: 50px;
+    }
+
+    .page2-about p {
+        font-size: 16px; 
+    }
+
+    .page2-about h2 {
+        font-size: 25px; 
+    }
+
+    .why {
+        margin: 10px;
+    }
+
+    .but-ton {
+        font-size: 18px; 
+        padding: 10px 20px;
+    }
+}
+
+/* For very small devices (e.g., phones) */
+@media (max-width: 480px) {
+    .page2-about p {
+        font-size: 14px; 
+    }
+
+    .page2-about h2 {
+        font-size: 20px; 
+    }
+
+    .but-ton {
+        font-size: 16px; 
+        padding: 8px 15px;
+    }
+}

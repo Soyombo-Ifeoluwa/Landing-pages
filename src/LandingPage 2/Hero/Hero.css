@@ -8,29 +8,32 @@
   align-items: center;
   margin: 0 120px 0 120px;
 }
+
 .page2hero-text {
   margin: 0px;
-  h1 {
-    font-size: 60px;
-    margin-bottom: 20px;
-    font-family: "Kablammo", system-ui;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings: "MORF" 0;
-    color:#9AC268;
-  }
-  p {
-    font-family: "Smythe", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: 2px;
-    word-spacing: 3px;
-    font-size: 20px;
-    color:#B1CFC7;
-
-  }
 }
+
+.page2hero-text h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  font-family: "Kablammo", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "MORF" 0;
+  color: #9AC268;
+}
+
+.page2hero-text p {
+  font-family: "Smythe", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  font-size: 20px;
+  color: #B1CFC7;
+}
+
 .page2hero-image img {
   height: 900px;
   width: 620px;
@@ -38,8 +41,8 @@
 }
 
 .page2hero-button {
-  background-color:#9AC268;
-  color:white;
+  background-color: #9AC268;
+  color: white;
   border: none;
   padding: 25px 50px;
   font-size: 25px;
@@ -47,6 +50,81 @@
   border-radius: 50px 0 50px 0;
   margin-top: 20px;
   font-family: "Smythe", system-ui;
-    font-weight: 400;
-    font-style: normal;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.page2hero-button:hover {
+  background-color: #B1CFC7;
+  color: #9AC268;
+}
+
+/* Media Queries for Responsiveness */
+
+@media (max-width: 1024px) {
+  .page2-hero {
+    flex-direction: column; 
+    margin: 0 40px;
+    text-align: center;
+  }
+
+  .page2hero-text h1 {
+    font-size: 50px; 
+  }
+
+  .page2hero-text p {
+    font-size: 18px;
+  }
+
+  .page2hero-image img {
+    height: 600px; 
+    width: 100%; 
+    margin-left: 0;
+  }
+
+  .page2hero-button {
+    font-size: 20px; 
+    padding: 15px 30px;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+  .page2-hero {
+    margin: 0 20px;
+  }
+
+  .page2hero-text h1 {
+    font-size: 40px; 
+  }
+
+  .page2hero-text p {
+    font-size: 16px; 
+  }
+
+  .page2hero-image img {
+    height: auto; 
+    width: 100%; 
+  }
+
+  .page2hero-button {
+    font-size: 18px; 
+    padding: 10px 20px;
+  }
+}
+
+/* For very small devices (e.g., phones) */
+@media (max-width: 480px) {
+  .page2hero-text h1 {
+    font-size: 30px;
+  }
+
+  .page2hero-text p {
+    font-size: 14px; 
+  }
+
+  .page2hero-button {
+    font-size: 16px; 
+    padding: 8px 15px;
+  }
 }
