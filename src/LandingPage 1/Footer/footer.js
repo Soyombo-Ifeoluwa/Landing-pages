@@ -15,7 +15,7 @@ function Footer() {
           </div>
         </nav>
       </div>
-        <p>© 2023 Your Company. All rights reserved.</p>
+        <p>© 2025 KARIS. All rights reserved.</p>
     </div>
   );
 }

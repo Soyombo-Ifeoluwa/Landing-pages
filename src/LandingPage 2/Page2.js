@@ -1,4 +1,5 @@
 import About from "./About/About";
+import Contact from "./Contact/contact";
 import Hero from "./Hero/Hero";
 import Testimonial from "./Testimonial/Testimonial";
 
@@ -8,6 +9,7 @@ function Page2() {
      <Hero />
      <About/>
      <Testimonial/>
+     <Contact/>
     </div>
   );
 }
